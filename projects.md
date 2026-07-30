@@ -1,5 +1,18 @@
 # Projects
 
+## Technical Assessment: Hybrid RAG System from Scratch
+**2026**
+
+Built a retrieval-augmented generation system from scratch as a timed technical assessment, implementing hybrid retrieval combining BM25 and semantic search via Reciprocal Rank Fusion (RRF), backed by a custom NumPy vector store. Added a hallucination detection layer and a PII short-circuit to block retrieval/generation on sensitive queries. Empirically profiled embedding similarity scores (mistral-embed) to calibrate a retrieval confidence threshold, deliberately biasing the system toward refusal over hallucination when confidence was low.
+
+**Results:** Delivered a working end-to-end hybrid retrieval pipeline with a calibrated 0.70 similarity threshold, favoring "I don't know" responses over fabricated answers when retrieval confidence was insufficient.
+
+**Tools:** Python, BM25, semantic search, Reciprocal Rank Fusion (RRF), NumPy (custom vector store), FastAPI, mistral-embed
+
+**Repo:** [rag-assessment-stackai](https://github.com/rmglick/rag-assessment-stackai)
+
+---
+
 ## Active Learning for Rare-Class Text Classification (LLM-as-an-Oracle)
 **Jan. 2026 – May 2026**
 
@@ -22,7 +35,7 @@ Designed controlled ranking experiments to evaluate demographic parity and consi
 
 **Tools:** GPT-5, Claude 4.5-Haiku, Python, Borda count rank aggregation, rank-difference statistical analysis
 
-**Paper:** *[Capstone LLM Assessment Report](papers/DS1006_Final_Report_Template___Azalea (1).pdf)*
+**Paper:** *[Capstone LLM Assessment Report](papers/Capstone_Report.pdf)*
 
 ---
 
@@ -35,7 +48,7 @@ Built a GraphRAG-based AI agent integrating a medical knowledge graph with retri
 
 **Tools:** LangChain, LLaMA 3.2, Neo4j, Cypher, FAISS
 
-**Paper:** *[RAG System Report](papers/NLU_Project_Final_Report (2).pdf)*
+**Paper:** *[RAG System Report](papers/KG_RAG_Report.pdf)*
 
 ---
 
@@ -59,7 +72,7 @@ Fine-tuned Qwen2.5-0.5B using reinforcement learning to benchmark process-based 
 
 **Tools:** Qwen2.5-0.5B, RL fine-tuning frameworks, Python
 
-**Write-up:** [RLVR and Qwen2.5-0.5B: Local vs. Meta Rewards](https://quill-reptile-5db.notion.site/RLVR-and-Qwen2-5-0-5B-Local-vs-Meta-Rewards-2c17b396b0088095a4dfc4e4ca9e31a7)
+**Technical Blog Post:** [RLVR and Qwen2.5-0.5B: Local vs. Meta Rewards](https://quill-reptile-5db.notion.site/RLVR-and-Qwen2-5-0-5B-Local-vs-Meta-Rewards-2c17b396b0088095a4dfc4e4ca9e31a7)
 
 ---
 
@@ -72,7 +85,8 @@ Designed a collaborative filtering model on the MovieLens dataset using Spark, a
 
 **Tools:** Spark, Parquet, collaborative filtering, Bayesian smoothing, stratified sampling
 
-**Paper:** *[Recommender System Report](papers/Big_Data_Capstone.pdf)
+**Paper:** [Recommender System Report](papers/Big_Data_Capstone.pdf)
+
 ---
 
 ## Deep Learning – Self-Supervised Learning: MoCo v2 Representation Learning
@@ -83,3 +97,5 @@ Built a MoCo v2-style contrastive self-supervised learning framework on a ResNet
 **Results:** Identified that contrastive loss alone was an unreliable predictor of downstream representation quality, informing a more rigorous, evaluation-driven iteration process; successfully diagnosed and resolved training collapse under real constraints.
 
 **Tools:** PyTorch, ResNet-50, MoCo v2, InfoNCE loss, 65K negative queue, contrastive learning, linear probing
+
+**Paper:** [Deep Learning Unsupervised Learning Report](papers/Deep_Learning_Final_Project.pdf)
