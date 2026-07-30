@@ -1,5 +1,25 @@
 # Projects
 
+# Projects
+
+## Table of Contents
+
+### LLMs & Generative AI
+- [Hybrid RAG System from Scratch](#technical-assessment-hybrid-rag-system-from-scratch)
+- [Medical Knowledge Graph RAG](#agentic-rag-medical-knowledge-graph-integration)
+- [LLM Hiring Bias](#capstone-project-assessing-hiring-gender-bias-in-llms)
+
+### Machine Learning
+- [Active Learning for Rare-Class Text Classification](#active-learning-for-rare-class-text-classification-llm-as-an-oracle)
+- [Self-Supervised Learning (MoCo v2)](#deep-learning--self-supervised-learning-moco-v2-representation-learning)
+- [Reinforcement Learning (Qwen2.5)](#reinforcement-learning-qwen2505b-and-process-vs-outcome-rewards)
+
+### Data Science & Analytics
+- [Recommender System Development](#recommender-system-development)
+- [Predictive Modeling of Bias in Higher Education Ratings](#statistical-analysis-and-predictive-modeling-of-bias-in-higher-education-ratings)
+
+---
+
 ## Technical Assessment: Hybrid RAG System from Scratch
 **2026**
 
