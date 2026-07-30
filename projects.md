@@ -24,7 +24,7 @@ Built a GraphRAG-based AI agent integrating a medical knowledge graph with retri
 
 **Repo:** https://github.com/jaulie/knowledge_graph_creation
 
-**Paper:** *[RAG System Report](papers/KG_RAG_Report.pdf)*
+**Paper:** [RAG System Report](papers/KG_RAG_Report.pdf)
 
 ---
 
@@ -38,6 +38,7 @@ Extended an active learning pipeline to improve rare-class detection across larg
 **Tools:** Python, PyTorch, Thompson sampling (bandit-based sample selection), LDA clustering, BERT fine-tuning, GPT-4o-mini (LLM-as-oracle pseudo-labeling), Kubernetes, Docker
 
 **Repo:** https://github.com/praveen-bandla/LTS
+
 **Paper:** [Active Learning Report](papers/LTS_Project.pdf)
 
 ---
@@ -64,7 +65,7 @@ Designed controlled ranking experiments to evaluate demographic parity and consi
 
 **Tools:** GPT-5, Claude 4.5-Haiku, Python, Borda count rank aggregation, rank-difference statistical analysis
 
-**Paper:** *[Capstone LLM Assessment Report](papers/Capstone_Report.pdf)*
+**Paper:** [Capstone LLM Assessment Report](papers/Capstone_Report.pdf)
 
 ---
 
