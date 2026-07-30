@@ -6,7 +6,4 @@ I'm a data scientist with experience in machine learning, healthcare analytics, 
 ## Projects
 See my full project portfolio here:
 
-[Projects][projects.md]
-
-## Resume
-You can also view my resume here.
+[Projects](projects.md)
