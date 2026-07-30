@@ -22,6 +22,8 @@ Built a GraphRAG-based AI agent integrating a medical knowledge graph with retri
 
 **Tools:** LangChain, LLaMA 3.2, Neo4j, Cypher, FAISS
 
+**Repo**: https://github.com/jaulie/knowledge_graph_creation
+
 **Paper:** *[RAG System Report](papers/KG_RAG_Report.pdf)*
 
 ---
@@ -34,6 +36,8 @@ Extended an active learning pipeline to improve rare-class detection across larg
 **Results:** Achieved a 0.94 F1 score on rare-class detection while meaningfully reducing manual annotation costs.
 
 **Tools:** Python, PyTorch, Thompson sampling (bandit-based sample selection), LDA clustering, BERT fine-tuning, GPT-4o-mini (LLM-as-oracle pseudo-labeling), Kubernetes, Docker
+
+**Repo:** https://github.com/praveen-bandla/LTS
 
 **Paper:** *[Active Learning Report](papers/LTS_Project.pdf)*
 
@@ -61,7 +65,7 @@ Designed controlled ranking experiments to evaluate demographic parity and consi
 
 **Tools:** GPT-5, Claude 4.5-Haiku, Python, Borda count rank aggregation, rank-difference statistical analysis
 
-**Paper:** *[Capstone LLM Assessment Report](papers/Capstone_Report.pdf)*
+**Paper:** [Capstone LLM Assessment Report](papers/Capstone_Report.pdf)
 
 ---
 
@@ -73,6 +77,8 @@ Fine-tuned Qwen2.5-0.5B using reinforcement learning to benchmark process-based 
 **Results:** Documented convergence performance and reward-design tradeoffs between process- and outcome-based regimes in a technical write-up.
 
 **Tools:** Qwen2.5-0.5B, RL fine-tuning frameworks, Python
+
+**Repo:** https://github.com/palandyeanagha/RLVR-and-Qwen2.5-0.5B-Local-vs.-Meta-Rewards
 
 **Technical Blog Post:** [RLVR and Qwen2.5-0.5B: Local vs. Meta Rewards](https://quill-reptile-5db.notion.site/RLVR-and-Qwen2-5-0-5B-Local-vs-Meta-Rewards-2c17b396b0088095a4dfc4e4ca9e31a7)
 
