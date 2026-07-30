@@ -9,7 +9,7 @@ Extended an active learning pipeline to improve rare-class detection across larg
 
 **Tools:** Python, PyTorch, Thompson sampling (bandit-based sample selection), LDA clustering, BERT fine-tuning, GPT-4o-mini (LLM-as-oracle pseudo-labeling), Kubernetes, Docker
 
-**Paper:** *[link to writeup/repo — add here]*
+**Paper:** *[Active Learning Report](papers/LTS_Project.pdf)*
 
 ---
 
@@ -22,7 +22,7 @@ Designed controlled ranking experiments to evaluate demographic parity and consi
 
 **Tools:** GPT-5, Claude 4.5-Haiku, Python, Borda count rank aggregation, rank-difference statistical analysis
 
-**Paper:** *[link to writeup/repo — add here]*
+**Paper:** *[Capstone LLM Assessment Report](papers/DS1006_Final_Report_Template___Azalea (1).pdf)*
 
 ---
 
@@ -35,7 +35,7 @@ Built a GraphRAG-based AI agent integrating a medical knowledge graph with retri
 
 **Tools:** LangChain, LLaMA 3.2, Neo4j, Cypher, FAISS
 
-**Paper:** *[link to writeup/repo — add here]*
+**Paper:** *[RAG System Report](papers/NLU_Project_Final_Report (2).pdf)*
 
 ---
 
@@ -72,6 +72,7 @@ Designed a collaborative filtering model on the MovieLens dataset using Spark, a
 
 **Tools:** Spark, Parquet, collaborative filtering, Bayesian smoothing, stratified sampling
 
+**Paper:** *[Recommender System Report](papers/Big_Data_Capstone.pdf)
 ---
 
 ## Deep Learning – Self-Supervised Learning: MoCo v2 Representation Learning
