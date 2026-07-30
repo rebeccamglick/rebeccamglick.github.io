@@ -1,7 +1,5 @@
 # Projects
 
-# Projects
-
 ## Table of Contents
 
 ### LLMs & Generative AI
