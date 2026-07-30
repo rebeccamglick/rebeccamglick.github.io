@@ -22,6 +22,8 @@ Built a GraphRAG-based AI agent integrating a medical knowledge graph with retri
 
 **Tools:** LangChain, LLaMA 3.2, Neo4j, Cypher, FAISS
 
+**Repo:** https://github.com/jaulie/knowledge_graph_creation
+
 **Paper:** *[RAG System Report](papers/KG_RAG_Report.pdf)*
 
 ---
@@ -35,7 +37,8 @@ Extended an active learning pipeline to improve rare-class detection across larg
 
 **Tools:** Python, PyTorch, Thompson sampling (bandit-based sample selection), LDA clustering, BERT fine-tuning, GPT-4o-mini (LLM-as-oracle pseudo-labeling), Kubernetes, Docker
 
-**Paper:** *[Active Learning Report](papers/LTS_Project.pdf)*
+**Repo:** https://github.com/praveen-bandla/LTS
+**Paper:** [Active Learning Report](papers/LTS_Project.pdf)
 
 ---
 
@@ -74,6 +77,8 @@ Fine-tuned Qwen2.5-0.5B using reinforcement learning to benchmark process-based 
 
 **Tools:** Qwen2.5-0.5B, RL fine-tuning frameworks, Python
 
+**Repo:** https://github.com/palandyeanagha/RLVR-and-Qwen2.5-0.5B-Local-vs.-Meta-Rewards
+
 **Technical Blog Post:** [RLVR and Qwen2.5-0.5B: Local vs. Meta Rewards](https://quill-reptile-5db.notion.site/RLVR-and-Qwen2-5-0-5B-Local-vs-Meta-Rewards-2c17b396b0088095a4dfc4e4ca9e31a7)
 
 ---
@@ -100,6 +105,8 @@ Conducted statistical significance testing (Welch's t-test, KS-test) with confid
 **Results:** Identified statistically significant rating disparities; optimized predictive models on AUROC, R², and RMSE while addressing collinearity and class imbalance.
 
 **Tools:** Python, hypothesis testing (Welch's t-test, KS-test), bootstrapping, regression and classification modeling
+
+**Paper:** [Predictive Modeling](papers/IDS_Capstone.pdf)
 
 ---
 
